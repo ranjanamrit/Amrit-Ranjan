@@ -1,0 +1,118 @@
+.aboutContainer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutContainer .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.1;
+}
+.aboutContainer .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 2rem 20% 3rem 20% ;
+    padding:0rem 2rem 2rem 2rem;
+    border-radius: 10px ;
+    background-color: rgba(192, 191, 191, 0.164);
+    box-shadow: -1px 0px 23px 15px rgba(105, 104, 104, 0.164),
+                inset 0px 0px 15px 5px rgba(182, 175, 175, 0.164);
+}
+.aboutContainer .information .info .heading{
+    font-size: 1.8rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+.aboutContainer .information .info .name{
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+.aboutContainer .information .info h4{
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+.aboutContainer .information .info p{
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.aboutContainer .information .linkButtons{
+    margin-top: 2rem;
+}
+.aboutContainer .information .linkButtons .resume{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    background-color: rgb(101, 163, 245);
+    border-radius: 6px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    
+}
+.aboutContainer .information .linkButtons .resume:hover{
+    background-color: rgb(78, 151, 246);
+    transition: ease 0.5s;
+    font-weight: 500;
+}
+.aboutContainer .information .linkButtons .resume span {
+    position: relative;
+    top:-0.3rem;
+    color: white;
+}
+.aboutContainer .information .linkButtons .github{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    background-color: red;
+    border-radius: 6px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+.aboutContainer .information .linkButtons .github:hover{
+    background-color: rgb(206, 0, 0);
+    transition: ease 0.5s;
+    font-weight: 500;
+}
+
+.aboutContainer .information .linkButtons .github span {
+    position: relative;
+    top:-0.3rem;
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    .aboutContainer{
+        top: 0.9rem;
+    }
+    .aboutContainer .information{
+        margin: 0;
+        box-shadow: none;
+        background-color: white;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .aboutContainer .information .linkButtons .resume{
+        margin-right: 0.18rem;
+        padding: 0.3rem;
+    }
+    .aboutContainer .bg{
+        height: 30%;
+    }
+    .aboutContainer .information .linkButtons .github{
+        padding: 0.3rem;
+    }
+
+}

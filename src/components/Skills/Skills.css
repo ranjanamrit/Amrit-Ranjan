@@ -1,0 +1,82 @@
+.skills{
+	padding: 1rem;
+	background: #fffef4;
+	padding-left: 4rem;
+    padding-right: 4rem;
+	margin-top: 3rem;
+}
+.skills h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 4rem;
+}
+.skills  .skillContainer {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-auto-rows: auto;
+	grid-gap: 3rem;
+	margin-bottom: 1rem;
+}
+.skills  .skillContainer .card {
+	border-radius: 0.2rem;
+	width: auto;
+    padding: 1rem;
+    background-color: white;
+	box-shadow: 0 0 5px rgba(0,0,0,.03), 0 5px 22px -8px rgba(0,0,0,.1);
+}
+.skills  .skillContainer .card i {
+	font-size: 2rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+	
+}
+.skills  .skillContainer .card h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	text-align: center;
+	margin: 1rem;
+	padding: 0rem;
+}
+.skills  .skillContainer .card ul {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	list-style: none;
+	padding-left: 1rem;
+}
+
+.skills  .skillContainer .card ul li {
+	margin-bottom: 0.3rem;
+}
+
+.skills  .skillContainer .card ul li:before {
+	content: "> ";
+	padding-right: 0.5rem;
+}
+
+
+
+
+
+@media screen and (max-width:400px){
+    .skills  .skillContainer .card ul li {
+        font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.skills {
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 2rem;
+		padding-right: 2rem;
+	}
+		
+	.skills .skillContainer {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.skills h1{
+		text-align: center;
+		font-size: 3rem;
+	}
+}

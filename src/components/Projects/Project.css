@@ -1,0 +1,149 @@
+.projects {
+    position: relative;
+    margin: 0rem;
+    padding: 0rem;
+    height: auto;
+    background-color: #ffffff;
+}
+.projects .bg{
+    position: absolute;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+}
+
+.projects h1 {
+    margin: 0rem;
+    padding: 0rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+    color: black;
+    font-size: 4rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.projects .cardContainer {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 5rem;
+}
+
+.projects .cardContainer .card {
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(194, 194, 194, 0.164);
+    box-shadow: 0 0 5px rgba(0,0,0,.03), 0 5px 22px -8px rgba(0,0,0,.1);
+    border-radius: 10px ;
+}
+.projects .cardContainer .card .title{
+    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0rem;
+    margin-top: 0.5rem;
+    padding: 0rem;
+    margin-bottom: 2rem;
+}
+
+.projects .cardContainer .card .about {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+
+
+
+.projects .cardContainer .card .link {
+    text-align: center;
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.projects .cardContainer .card a {
+    font-family: 'Roboto Slab', serif;
+    padding: 0.6rem;    
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.3rem;
+    background-color: #ef5350;
+    text-decoration: none;
+    width: 5rem;
+    transition: 0.5s;
+}
+
+
+.projects .cardContainer .card a:hover {
+    background-color: #b71c1c;
+    font-weight: 800;
+}
+.projects .cardContainer .card .visit{
+    background-color: rgb(117, 167, 18);
+    margin-left: 5rem;
+}
+.projects .cardContainer .card .visit:hover {
+    background-color: green;
+}
+
+
+@media screen and (max-width: 600px) {
+    .projects .bg{
+        height: 90%;
+    }
+    .projects .cardContainer {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0.2rem;
+        padding: 1rem;
+        grid-gap: 0.5rem;
+    }   
+
+    .projects h1 {
+        margin-left: 0rem;
+        text-align: center;        
+        font-weight: 900;
+        font-size:3rem;
+        margin-top: 0.2rem;
+        padding-top: 0.5rem;
+    }
+    .projects .cardContainer .card{
+        border-radius:  10px;
+        margin-top: 1.5rem;
+    }
+
+    .projects .cardContainer .card .title {
+        font-size: 2rem;
+    }
+    .projects .cardContainer .card .link {
+        margin-top: 0rem;
+    }
+    .projects .cardContainer .card .visit{
+        margin-left: 0.2rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .projects .cardContainer .card .visit{
+        margin-left: 0.5rem;
+    }
+    .projects .cardContainer .card{
+        border-radius:  10px;
+        margin-top: 1.5rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .projects .cardContainer .card .visit{
+        margin-left: 0.47rem;
+    }
+    .projects .cardContainer .card a{
+        padding: 0.3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
