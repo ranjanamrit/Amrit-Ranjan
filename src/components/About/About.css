@@ -57,7 +57,7 @@
     background-color: rgb(101, 163, 245);
     border-radius: 6px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight: 400;
     
 }
 .aboutContainer .information .linkButtons .resume:hover{
@@ -79,7 +79,7 @@
     background-color: red;
     border-radius: 6px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 .aboutContainer .information .linkButtons .github:hover{
     background-color: rgb(206, 0, 0);

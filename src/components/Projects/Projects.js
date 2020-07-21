@@ -39,7 +39,7 @@ export default function Projects() {
                         </div>
                     </div>
                     </Tilt>
-                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
+                <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
                     <div className="card">
                         <h2 className="title">Bloggeryy</h2> <br></br>
                         <div style={{paddingLeft: '1.3rem'}}>
@@ -65,6 +65,49 @@ export default function Projects() {
                                 className="visit"
                             >
                                 Visit Project <i className="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    </Tilt>
+                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                    <div className="card face">
+                        <h2 className="title">Paint</h2> <br></br>
+                        <div style={{paddingLeft: '1.3rem'}}>
+                            <span className="about">
+                                   A simple paint application made using python and Tkinter as library
+                                   where you can select any colour, choose between brush and pencil, Width 
+                                   of a pencil or brush and eraser.<br></br>
+                            </span>
+                            <br></br>
+                        </div>
+                        <div className="link">
+                            <a
+                                href="https://www.github.com/ranjanamrit/Paint"
+                                target="_blank" rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-github"></i> Project Repo
+                            </a>
+                        </div>
+                    </div>
+                    </Tilt>
+                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                    <div className="card face">
+                        <h2 className="title">Face Detector</h2> <br></br>
+                        <div style={{paddingLeft: '1.3rem'}}>
+                            <span className="about">
+                                   A simple Face Detector application made using python, opencv as library
+                                   and Haar Cascades classifier where the application will access your 
+                                   device webcam and will detect the face by making a blue square box
+                                   around the face.<br></br>
+                            </span>
+                            <br></br>
+                        </div>
+                        <div className="link">
+                            <a
+                                href="https://www.github.com/ranjanamrit/Face-detector"
+                                target="_blank" rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-github"></i> Project Repo
                             </a>
                         </div>
                     </div>

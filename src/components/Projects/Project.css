@@ -92,6 +92,9 @@
 .projects .cardContainer .card .visit:hover {
     background-color: green;
 }
+.projects .cardContainer .face{
+    margin-top: -2rem;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -126,6 +129,9 @@
     }
     .projects .cardContainer .card .visit{
         margin-left: 0.2rem;
+    }
+    .projects .cardContainer .face{
+        margin-top: 3rem;
     }
 }
 @media screen and (max-width: 800px) {

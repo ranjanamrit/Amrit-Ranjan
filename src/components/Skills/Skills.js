@@ -40,6 +40,7 @@ export default function Skills() {
                                 <li>Linux</li>
                                 <li>Git</li>
                                 <li>Android Development (Basic)</li>
+                                <li>Heroku</li>
                             </ul>
                         </div>
                     </div>
